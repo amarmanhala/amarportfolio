@@ -1,0 +1,86 @@
+// Your variable overrides
+:root {
+    --primary-color: rgb(88, 86, 214);
+    --font-color: #e1e1ff;
+    --bg-color: #161625;
+}
+
+[data-theme="dark"] {
+    --primary-color: rgb(94, 92, 230);
+    --font-color: #e1e1ff !important;
+    --bg-color: #161625;
+}
+$body-bg: var(--bg-color);
+$body-color: var(--font-color);
+
+
+html {
+    font-family: "Alegreya Sans", sans-serif, -apple-system, BlinkMacSystemFont;
+    -ms-text-size-adjust: 100%;
+    -webkit-text-size-adjust: 100%;
+    -moz-osx-font-smoothing: grayscale;
+    -webkit-font-smoothing: antialiased;
+    box-sizing: border-box;
+  }
+
+  h1 {
+    font-size: 2rem;
+    color: var(--font-color);
+  }
+ 
+  
+  *,
+  *:before,
+  *:after {
+    box-sizing: border-box;
+    margin: 0;
+  }
+  h1, h2, h3, h4, h5 {
+    font-family: "Rammetto One";
+          font-weight: normal;
+          letter-spacing: 1px;
+  }
+  a, p {
+    font-family: "Alegreya Sans";
+      letter-spacing: 1px;
+  }
+  
+  
+  a {
+    text-decoration: none;
+    color: var(--font-color);
+  
+  }
+  ul {
+    list-style: none;
+  }
+  
+  
+  
+  
+  
+  
+  
+  /* Global Container */
+  
+  .my-container {
+    display: flex;
+    margin: 0px auto;
+  }
+  
+  
+  
+  //Responsive Queries
+  /* ----------- iPhone X ----------- */
+  
+  /* Portrait and Landscape */
+  @media only screen 
+    and (min-device-width: 375px) 
+    and (max-device-width: 812px) 
+    and (-webkit-min-device-pixel-ratio: 3) { 
+      h1 {
+        font-size: 1.8rem;
+      }
+  }
+  
+ 
