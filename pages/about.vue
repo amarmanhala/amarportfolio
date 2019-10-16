@@ -48,4 +48,11 @@ I also, started focussing on great UI.
 </style>
 
 <script>
+export default {
+  head () {
+    return {
+      title: 'About | Amarpreet Singh, Frontend Developer Toronto',
+    }
+  }
+}
 </script>

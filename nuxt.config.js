@@ -9,7 +9,9 @@ export default {
     meta: [
       { charset: 'utf-8' },
       { name: 'viewport', content: 'width=device-width, initial-scale=1' },
-      { hid: 'description', name: 'description', content: process.env.npm_package_description || '' }
+      { name: "description", content: "Amarpreet Singh is a Frontend Developer &amp; Designer based in Toronto, Canada." },
+      { name: "keywords", content: "front end developer, web designer, ui, ux, ui/ux designer,Toronto, canadian, portfolio, front end developer in toronto, creative designer, ui designer, web developer in Toronto, freelancer" },
+      { name: "author", content: "Amarpreet Singh" }
     ],
     link: [
       { rel: 'icon', type: 'image/png', href: '/favicon-32x32.png', sizes: '32x32' },

@@ -37,4 +37,11 @@ p {
 </style>
 
 <script>
+export default {
+  head () {
+    return {
+      title: 'Contact | Amarpreet Singh, Frontend Developer Toronto',
+    }
+  }
+}
 </script>
