@@ -1,6 +1,6 @@
-# AmarPortfolio
+# Hello, Good Evening, and Welcome
 
-> My Personal website
+> This is my Personal website.
 
 ## Build Setup
 
