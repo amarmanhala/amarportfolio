@@ -5,8 +5,8 @@
       <h3 class="font-display lg:text-xl md:text-xl text-xl pb-6">Recent Work</h3>
       </div>
 </div>
-<div class="flex">
-      <div class="w-1/3 pr-6">
+<div class="flex flex-wrap">
+      <div class="w-full xl:pr-6 lg:pr-6 xl:w-1/3 lg:w-1/2 md:w-1/2 pb-6">
         <a href="https://github.com/amarmanhala/raptor" target="_blank">
           <div class="max-w-sm rounded overflow-hidden rounded raptor">
             <div class="px-6 py-4">
@@ -24,7 +24,7 @@
         </a>
       </div>
       
-      <div class="w-1/3 pr-6">
+      <div class="w-full xl:pr-6 lg:pr-6 xl:w-1/3 lg:w-1/2">
         <a href="https://github.com/amarmanhala/weatherapp" target="_blank">
           <div class="max-w-sm rounded overflow-hidden rounded weather">
             <div class="px-6 py-4">
