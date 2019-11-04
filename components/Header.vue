@@ -35,13 +35,8 @@
 </style>
 
 <script>
-import ThemeSwitch from "~/components/Theme-switch.vue";
-import pdf from 'vue-pdf';
-
 export default {
   components: {
-    ThemeSwitch,
-    pdf
   }
 };
 </script>
