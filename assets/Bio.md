@@ -1,0 +1,1 @@
+Frontend developer, focusing on creating web apps with great user experience.

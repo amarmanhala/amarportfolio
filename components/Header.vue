@@ -16,7 +16,10 @@
     <nuxt-link to="/about">About</nuxt-link>
   </li>
   <li class="lg:mr-6 md:mr-6 xl:mr-6 mr-4">
-    <nuxt-link to="/about">Résumé</nuxt-link>
+    <a href="https://www.dropbox.com/s/g2bu7rtvmxzw15d/amarpreet-full-stack-web-developer.pdf?dl=0" target="__blank">Resume</a>
+  </li>
+  <li class="lg:mr-6 md:mr-6 xl:mr-6 mr-4">
+    <nuxt-link to="/reading">Reading</nuxt-link>
   </li>
   <li>
     <nuxt-link to="/contact">Contact</nuxt-link>
@@ -33,10 +36,12 @@
 
 <script>
 import ThemeSwitch from "~/components/Theme-switch.vue";
+import pdf from 'vue-pdf';
 
 export default {
   components: {
-    ThemeSwitch
+    ThemeSwitch,
+    pdf
   }
 };
 </script>

@@ -40,7 +40,7 @@ p {
 export default {
   head () {
     return {
-      title: 'Contact | Amarpreet Singh, Frontend Developer Toronto',
+      title: 'Contact | Amarpreet Singh, Full stack Developer Toronto',
     }
   }
 }

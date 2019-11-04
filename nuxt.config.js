@@ -5,12 +5,12 @@ export default {
   ** Headers of the page
   */
   head: {
-    title: 'Amarpreet Singh | Toronto Frontend Developer',
+    title: 'Amarpreet Singh | Toronto Full Stack Web Developer',
     meta: [
       { charset: 'utf-8' },
       { name: 'viewport', content: 'width=device-width, initial-scale=1' },
-      { name: "description", content: "Amarpreet Singh is a Frontend Developer &amp; Designer based in Toronto, Canada." },
-      { name: "keywords", content: "front end developer, web designer, ui, ux, ui/ux designer,Toronto, canadian, portfolio, front end developer in toronto, creative designer, ui designer, web developer in Toronto, freelancer" },
+      { name: "description", content: "Amarpreet Singh is a Full stack web developer &amp; Web developer, designer based in Toronto, Canada." },
+      { name: "keywords", content: "full stack end developer, frontend developer, web designer, ui, ux, ui/ux designer,Toronto, canadian, portfolio, front end developer in toronto, creative designer, ui designer, web developer in Toronto, freelancer" },
       { name: "author", content: "Amarpreet Singh" }
     ],
     link: [
@@ -60,11 +60,20 @@ export default {
   /*
   ** Nuxt.js modules
   */
- modules: ['@nuxtjs/style-resources'],
+ modules: ['@nuxtjs/style-resources',
+            '@nuxtjs/markdownit'],
 
   /*
   ** Build configuration
   */
+ markdownit: {
+  preset: 'default',
+  linkify: true,
+  breaks: true,
+  use: [
+  ]
+},
+
  build: {
   extend (config, ctx) {
   }

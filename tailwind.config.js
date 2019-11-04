@@ -8,10 +8,11 @@ module.exports = {
             body: ['Alegreya Sans']
           },
           colors: {
+            extended: {
             primary: 'var(--primary-color)',
             fontColor: 'var(--font-color)',
             bgColor: 'var(--bg-color)'
-            // ...
+            }// ...
           },
     },
     variants: {},

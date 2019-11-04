@@ -1,6 +1,6 @@
 <template>
   <footer class='w-full xl:px-32 lg:px-32 md:px-32 px-8 my-5 ext-muted'>
-            <span class="text-muted text-sm">This site is hand-crafted by me with ❤ G
+            <span class="text-muted text-sm">This site is hand-crafted by me with VueJs and hosted on Netlify.
 </span>
         </footer>
 </template>
